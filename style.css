@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Mantinia;
+    src: url(font/Mantinia\ Regular.otf); 
+    vertical-align: middle;
+}
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #b4b2b0;
+}
+
+h1{
+    margin-top: 15px;
+}
+
+.nav-link {
+    text-align: center;
+    color: #b4b2b0;
+}
+.nav-link.active{
+    background-color: #AB966F!important;
+    color: #fff !important;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 2vw;
+}
+header, .card-body, footer{
+    background-color: #222;
+}
+.caixa {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 2em;
+    margin: 2vw auto;
+}
+
+.texto-customizado, .minuscula {
+    font-family: Mantinia, Arial, Helvetica, sans-serif !important;
+    color: #AB966F;
+}
+
+.texto-customizado {
+    font-family: 'SuaFonte', sans-serif;
+    position: relative;
+}
+
+.texto-customizado .minuscula {
+    display: inline-block;
+    position: relative;
+    top: 0.1em;
+}
+
+h2, h3, h4 {
+    font-family: Spectral, serif;
+    color: #fff !important;
+    margin: 0;
+}
+
+h2{
+    border-bottom: 2px solid #AB966F;
+    margin-bottom: 3vw;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: 2px solid #4d4c4c;
+}
+
+.navbar-toggler{
+    background-color: #AB966F;
+    color: #222;
+}
+
+#carousel img{
+    max-height: 30vw;
+    min-height: 150px;
+}
+
+body {
+    background-image: url(images/img5.jpg);
+    background-size: cover; /* Faz com que a imagem cubra toda a área de fundo */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto o conteúdo rola */
+    background-repeat: no-repeat;
+}
+
+.card-header{
+    background: transparent url("https://www.wiki.fextralife.com/file/view/eso-wiki-table.jpg");
+    border-bottom: 2px solid #4d4c4c;
+    z-index: 1;
+}
+.card{
+    border: 2px solid #AB966F;
+    background-color: transparent;
+}
+.card-text{
+    text-align: left;
+}
+.btn {
+    background-color: #AB966F;
+}
+.btn:hover{
+    background-color: #aa9162;
+    color: #fff;
+}
+.card-body{
+    border-bottom: 2px solid #4d4c4c;
+    border-top: 2px solid #4d4c4c;
+}
+
+footer{
+    border-top: 2px solid #4d4c4c;
+}
